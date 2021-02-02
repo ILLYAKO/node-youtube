@@ -42,6 +42,7 @@ const server = http.createServer((req, res) => {
   const ext = path.extname(filePath);
 
   let contentType = "text/html";
+  
   switch (ext) {
     case ".css":
       contentType = "text/css";

@@ -1,4 +1,5 @@
 const os = require('os')
+
 console.log("OS: ", os.platform())
 console.log("spu arch: ", os.arch())
 console.log("spu: ", os.cpus())
