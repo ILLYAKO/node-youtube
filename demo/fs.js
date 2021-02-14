@@ -29,7 +29,7 @@ fs.readFile(filePath, "utf-8", (err, content) => {
   if (err) {
     throw err;
   }
-  console.log(content);
+  console.log("content: ",content);
   //   const data = Buffer.from(content)
   //   console.log("Content: ", data.toString());
 });
